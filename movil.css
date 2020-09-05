@@ -1,0 +1,14 @@
+.header {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 45px;
+}
+
+.header__icon{
+    font-size: 25px;
+}
