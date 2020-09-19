@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo_ubuntu.png">
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="movil.css"
-      media="screen and (min-width: 360px)"
-    />
+    <link rel="stylesheet" href="movil.css" media="screen and (max-width: 360px)"/>
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 768px)">
 
     <title>PIPO</title>
   </head>
 
   <body>
+
+    <div class="container">
+
     <header class="header">
       <div class="header__logo"><i class="fab fa-artstation"></i></div>
+      <span>STORE</span>
       <div id="botoncito" class="header__icon"><i class="fas fa-align-justify"></i></div>
     </header>
+
+    <main class="contenedor">
 
     <section class="anuncio">
       <img src="img/redragon.jpg" alt="imagen" title="imagen" />
     </section>
-
-    <main class="contenedor">
 
       <div class="store">
         <img src="img/skin-manzana.jpg" alt="manzana" />
@@ -56,8 +58,10 @@
           <span>$250</span>
         </div>
       </div>
-
-      
+     
+    </main>  
+    
+    </div>
 
     <script
       src="https://kit.fontawesome.com/334270f744.js"
